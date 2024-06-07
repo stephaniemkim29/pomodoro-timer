@@ -1,0 +1,50 @@
+.SettingsContainer{
+    font-size: 48px;
+    color: white;
+    text-align: left ;
+}
+
+.minutesContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.label{
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 30px; 
+}
+
+.sliderWork{
+    height:40px;
+    border: 5px solid blue;
+    cursor: pointer;
+    border-radius: 50px;
+
+}
+
+.sliderWork .thumb{
+    background-color: blue;
+    cursor: pointer;
+    width: 40px;
+    height: 40px; 
+    border-radius: 50%; 
+    position: relative;
+}
+
+.sliderBreak{
+    height:40px;
+    border: 5px solid purple;
+    cursor: pointer;
+    border-radius: 50px;
+
+}
+
+.sliderBreak .thumb{
+    background-color: purple;
+    cursor: pointer;
+    width: 40px;
+    height: 40px; 
+    border-radius: 50%; 
+    position: relative;
+}
